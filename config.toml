@@ -1,0 +1,43 @@
+baseURL = "./"
+languageCode = "en-us"
+title = "Nombre Estudiante - Repositorio"
+themesDir = "./"
+theme = "template"
+
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+summaryLength = 30
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Docs"
+    url = "/docs/"
+    weight = 2
+
+[params]
+  google_analytics_id=""
+  homepage_button_link = '/docs'
+  homepage_button_text = 'Read The Docs'
+  homepage_intro = 'Documentación.'
+  homepage_image = '/images/terminal.gif'
+
+  [params.homepage_meta_tags]
+    meta_description = "Documentación."
+    meta_og_title = "Documentación"
+    meta_og_type = "website"
+    meta_og_url = "https://designlab.uai.cl/"
+    meta_og_image = "https://designlab.uai.cl/assets/themes/designlab/img/logos/logo.png"
+    meta_og_description = "Documentación"
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@lab_uai"
+    meta_twitter_creator = "@lab_uai"
+
+  [params.logo]
+      mobile = "/images/logo-mobile.svg"
+      standard  = "/images/logo.svg"
